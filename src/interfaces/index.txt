@@ -1,0 +1,1 @@
+fill this folder using interface for global components, name folder using camelCase, such as "badSampleTable.ts"

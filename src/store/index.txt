@@ -1,0 +1,1 @@
+fill this folder with global state, u can use Redux, Context, Zuntand, tan stack quesry, react query. u can make name such as "index.ts", "useFecthData.ts", "useFilterAction.ts"

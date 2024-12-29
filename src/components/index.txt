@@ -1,0 +1,1 @@
+fill this component for spesik folder use, such as if you have auth process, u want to build form for signin. so, first you build folder name "signin" and than inside that folder, you create "SigninForm.tsx", 

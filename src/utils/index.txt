@@ -1,0 +1,1 @@
+fill this folder with javascript function, u can use camelCase typing such as "formatNumber.ts", "getFileName.ts" and etc

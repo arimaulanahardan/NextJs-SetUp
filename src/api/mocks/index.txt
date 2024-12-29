@@ -1,0 +1,1 @@
+fill this folder using Jason format, so this fole the mockup data fetching before API ready, name file such as "trend.json", "table.json"

@@ -1,0 +1,1 @@
+fill this folder with unit test, so you can test for every functional javascript that you have define in utils folder, u can use camel case template such as "formatNumber.test.ts"
