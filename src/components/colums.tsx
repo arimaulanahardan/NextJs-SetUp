@@ -5,6 +5,7 @@ import { MoreHorizontal } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ArrowUpDown } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
+import { useFetchUser } from "@/hooks/useFetchUser";
 
 import {
   DropdownMenu,
@@ -73,6 +74,10 @@ export const columns: ColumnDef<Iuser>[] = [
     cell: ({ row }) => {
       const user = row.original;
 
+      const {editUser, removeUser} = useFetchUser();
+
+      console.log(removeUser,"removeUser");
+
       return (
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
@@ -90,6 +95,7 @@ export const columns: ColumnDef<Iuser>[] = [
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>View customer</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => removeUser(user.id)}>Delete</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       );
