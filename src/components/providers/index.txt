@@ -1,0 +1,4 @@
+Fungsi: Menyediakan konteks atau state global kepada komponen anak. Ini biasanya digunakan untuk mengelola hal-hal seperti tema, autentikasi, atau pengaturan bahasa.
+
+Contoh: Komponen seperti "ThemeProvider", "AuthProvider", dan "LanguageProvider" yang menggunakan React Context API untuk membagikan state ke seluruh aplikasi.
+

@@ -1,1 +1,5 @@
 fill this folder with global state, u can use Redux, Context, Zuntand, tan stack quesry, react query. u can make name such as "index.ts", "useFecthData.ts", "useFilterAction.ts"
+
+Fungsi: Biasanya digunakan untuk mengelola state aplikasi yang lebih kompleks, sering kali dengan menggunakan state management library seperti Redux, MobX, atau Zustand. Store menyimpan data yang dapat diakses dan dimodifikasi oleh berbagai bagian aplikasi.
+
+Contoh: File yang mendefinisikan store Redux, termasuk reducers, actions, dan selectors. Ini memungkinkan pengelolaan state yang lebih terstruktur dan terpisah dari komponen UI.
