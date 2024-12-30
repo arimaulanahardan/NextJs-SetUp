@@ -13,7 +13,7 @@ const NavbarComponents = () => {
         className="flex justify-start items-center hover:opacity-85 transition-opacity duration-300"
       >
         <PanelsTopLeft className="w-6 h-6 mr-3" />
-        <span className="font-bold">SetUp NextJS</span>
+        <span className="font-bold">Take Home Test</span>
         <span className="sr-only">Back to main page</span>
       </Link>
       <nav className="ml-auto flex items-center gap-2">
