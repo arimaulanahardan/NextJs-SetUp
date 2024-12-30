@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect, useCallback } from 'react'
-import { Ipayments } from '@/interfaces/payment'
+import { Ipayments } from '@/interfaces/paymentInterface'
 import { tablePaymentsService } from '@/api/tablePaymentsService'
 
 export const useFetchPayments = () => {

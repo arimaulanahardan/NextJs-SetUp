@@ -1,4 +1,4 @@
-import { Ipayments } from "@/interfaces/payment";
+import { Ipayments } from "@/interfaces/paymentInterface";
 import { mockPayments } from "./mocks/mocksPayments";
 
 export const tablePaymentsService = {
